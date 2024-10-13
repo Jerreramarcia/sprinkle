@@ -1,3 +1,41 @@
+
+/* assets/css/main.css */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100..900&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: 'Big Shoulders Stencil Display', sans-serif;
+}
+
+.text-shadow{
+  text-shadow: 2px 2px 0 #585656, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
+}
+.bg-men {
+  background-image: url('/imgs/men.webp');
+  background-repeat: no-repeat;
+  /* Prevents the background from repeating */
+  background-size: cover;
+  /* Ensures the background image scales to cover the entire element */
+  background-position: center;
+  /* Centers the background image */
+  height: 100vh;
+  backdrop-filter: blur(10px);
+  /* Full screen height */
+}
+
+.bg-women {
+  background-image: url('/imgs/women.webp');
+  background-repeat: no-repeat;
+  /* Prevents the background from repeating */
+  background-size: cover;
+  /* Ensures the background image scales to cover the entire element */
+  background-position: center;
+  /* Centers the background image */
+  height: 100vh;
+  backdrop-filter: blur(10px);
+  /* Full screen height */
+}
